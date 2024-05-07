@@ -1,8 +1,8 @@
-import { Metadata } from "next";
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'customers | Acme Dashboard',
-}
+  title: 'Create Invoices | Acme Dashboard',
+};
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
